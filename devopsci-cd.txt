@@ -1,7 +1,7 @@
 1. GitHub webhook triggers, Jenkins will start the job.
 2. Maven will build the code and runs JUnit tests.
 3. SonarQube scanner will scan the code and sends the report to SonarQube server.
-4. Quality gate will evaluate the report against defined conditions.
+4. Quality gatclearcleare will evaluate the report against defined conditions.
 5. Webhook will notify Jenkins of quality gate status.
 6. Artifacts will send to JFrog Artifactory.
 7. Docker will build the Docker image.
@@ -46,3 +46,5 @@ Portfolio Link: https://sirvipraveen.me/
 
 
 Share this Project with your DevOps buddy.
+
+File
